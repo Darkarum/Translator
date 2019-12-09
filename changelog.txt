@@ -1,0 +1,75 @@
+0.11.12
+Bug fix, main window scrolled when searching item.
+Fixing behavior of "goto" options.
+Fixing clipping text on search results.
+Added feature Search then Put.
+Bug fix, cell hightlight gone when scrolling table.
+Now, Key cells are marked when focus on text editor.
+Added supports for Wolf RPG Editor
+Bug fix, unable to patch TES encrypted data when Translator++ is installed on drive other than C:
+
+0.11.17
+Bug fix, translation not set properly when using shortcut ALT+0~9
+
+
+0.11.27
+Support for RPG Maker MV games added (Including Enigma bundled RPG Maker MV games)
+Bug fix: creating new row sometimes unique key checker sometimes doesn't work correctly.
+Added feature: Common reference. Defining our own translation table. Very usefull to keep machine translation more consistant on translating common term.
+
+0.12.27
+Bug fix : one blank space on find, find & replace field -> OK
+Feature added : Change language
+Feature added : Options window
+Bug fix : Translation progress surpass 100% when creating new row.
+
+1.1.18
+Updated : Enigma VB Unpacker to version 0.55 (https://lifeinhex.com)
+Feature Added : Accessing extracted resources after extracting archive files. So the user can work with other extracted resources (ie: images)
+Behavior change : In order to give the capability to access extracted resources, cache will not be automatically deleted after project creation. So cache removal will be handled by OS or on demand by user. (Warning : watch your system's disk space)
+Error on batch translation now will give clear explanation.
+Replace function improved, now showing original text along with the change.
+Feature Added : We can now use regular expression on Find & Replace function.
+And several bug fix.
+
+
+1.1.30
+Updated : Improving translate selection function (ctrl+g)
+Now translating based on selected rows (older version is based on default each translator engine setting).
+Bug fix : Unable to export TES encrypted file (main.rvdata2)
+Bug fix : History of opened file doesn't saved properly.
+Feature Added : Export to RPGMakerTrans format.
+Feature Added : Export to CSV.
+And more.
+
+1.2.1
+Feature Added : "whitelist" selection on Context Tool
+Bug fix : Manual query on Context Tool
+Feature Added : "Match all words" option in Context Tool.
+
+
+1.2.8
+Bug fix : Import not working.
+Feature Added : Line by line import.
+
+1.2.19
+Enhance Options window.
+Adding Options-About (finally).
+Adding Options that fully customizable from Translator engine plugins
+Adding BING translator.
+Some major enhancement on delimiter escaping to the google plugin (this one is a contribution from a certain nice guy who refused to be credited)
+Now, Translator engines is a plugin that fully customizable and easy to made.
+Some bug fix (Thanks to all who contributed to the bug fix! You all are super!)
+
+1.3.5
+Improvement on TranslatorEngine core class.
+Now your changes on the options will be saved.
+Google Cloud (GCP) translator is added
+Improvement on the Translator pane.
+Some script optimization, cut the loading time by 50% on application start-up and less RAM consumption.
+
+1.3.6
+Bug fixing on TranslationEngine core class : Unable to do batch translation for Bing & Google Cloud plugin.
+Update Google Cloud plugin to ver 1.1 : fix on error 400 "Too many text segments"
+Feature added : hold shift on file selector for bulk selecting.
+Feature added : invert selection for file selector pane
